@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="icon" type="image/png" href="./assets/favicon/favicon.png">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Calculator App</h1>
+    </header>
+    <div class="container">
+        <h2>Login</h2>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" placeholder="Email" id="email" name="email">
+            <div class="error" id="email-error"></div>
+        </div>
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" placeholder="Username" id="username" name="username">
+            <div class="error" id="username-error"></div>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" placeholder="Password" id="password" name="password">
+            <div class="error" id="password-error"></div>
+        </div>
+        <div class="form-group">
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" placeholder="Confirm Password" id="confirm-password" name="confirm-password">
+            <div class="error" id="confirm-password-error"></div>
+        </div>
+        <div class="form-group">
+            <button type="submit" id="login-button" disabled>Login</button>
+        </div>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="validation.js"></script>
+</html>

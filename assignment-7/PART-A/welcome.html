@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Page</title>
+    <link rel="icon" type="image/png" href="./assets/favicon/favicon.png">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link rel="stylesheet" type="text/css" href="./css/welcome.css">
+</head>
+<body>
+    <header class="header-text-align">
+        <h1 id="welcome-header">Welcome</h1>
+    </header>
+
+    <div class="container">
+        <h2>Calculator</h2>
+        <form id="calculatorForm">
+            <div class="form-group">
+                <label for="number1">Number 1:</label>
+                <input type="text" id="number1" name="number1" required>
+                <div class="error" id="number1-error"></div>
+            </div>
+            <div class="form-group">
+                <label for="number2">Number 2:</label>
+                <input type="text" id="number2" name="number2" required>
+                <div class="error" id="number2-error"></div>
+            </div>
+            <div class="form-group">
+                <label for="number3">Result:</label>
+                <input type="text" id="number3" name="number3" readonly>
+            </div>
+            <div class="form-group" id="button-container">
+                <button type="button" id="add">Add</button>
+                <button type="button" id="subtract">Subtract</button>
+                <button type="button" id="multiply">Multiply</button>
+                <button type="button" id="divide">Divide</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="welcome.js"></script>
+    <script src="calculator.js"></script>
+</body>
+</html>
