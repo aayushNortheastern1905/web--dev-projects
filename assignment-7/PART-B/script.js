@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let isRunning = false;
     let startTime = 0;
     let lastPausedTime = 0;
+    let stopTime = 0; 
 
     function updateDisplay() {
         return new Promise((resolve) => {
@@ -25,11 +26,12 @@ document.addEventListener("DOMContentLoaded", () => {
                 startTime = new Date().getTime();
             } else {
                 const currentTime = new Date().getTime();
-                lastPausedTime += currentTime - stopTime;
+                const timeSincePause = currentTime - stopTime;
+                lastPausedTime += timeSincePause;
             }
             intervalId = setInterval(async () => {
                 await updateDisplay();
-            }, 1000);
+            }, 0);
         }
     }
 
@@ -37,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (isRunning) {
             isRunning = false;
             clearInterval(intervalId);
-            stopTime = new Date().getTime();
+            stopTime = new Date().getTime(); // Updates the stopTime when you click "stop"
         }
     });
 
@@ -53,4 +55,3 @@ document.addEventListener("DOMContentLoaded", () => {
         await startStopwatch();
     });
 });
-

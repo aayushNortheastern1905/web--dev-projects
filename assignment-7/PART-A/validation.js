@@ -82,7 +82,8 @@ $(document).ready(function () {
         // Minimum and maximum character check
         else if (password.length < 6 || password.length > 20) {
             showError('password', 'Password must be between 6 and 20 characters.');
-        } else {
+        } 
+        else {
             isValid.password = true;
         }
 
@@ -96,7 +97,7 @@ $(document).ready(function () {
 
         // Null check
         if (confirmPassword.trim() === '') {
-            showError('confirm-password', 'Confirm password is required.');
+            showError('confirm-password', 'Password is required.');
         }
         // Password match check
         else if (password !== confirmPassword) {
