@@ -1,0 +1,36 @@
+/* NavbarStyles.css */
+
+body{
+    font-size: large;
+}
+nav {
+    display: flex;
+    justify-content: flex-end; /* Align links to the right */
+    background-color: #333; /* Background color */
+    padding: 10px 20px; /* Add some padding */
+  }
+  
+  ul {
+    list-style-type: none; /* Remove bullets from list */
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline; /* Display list items in a row */
+    margin-left: 20px; /* Add space between items */
+  }
+  
+  /* Styling for the links */
+  a {
+    text-decoration: none; /* Remove underline */
+    color: #fff; /* Link color */
+    font-weight: bold;
+    font-size: larger;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+  a:hover {
+    color: darkgray; /* Change color on hover */
+  }
+  

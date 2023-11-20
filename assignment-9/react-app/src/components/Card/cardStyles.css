@@ -1,0 +1,34 @@
+/* CardStyles.css */
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 300px; /* Adjust the card width as needed */
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 100%; /* Responsive width */
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Scale up the card on hover */
+  }
+  
+  .card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 1em;
+    color: #666;
+  }
+  
