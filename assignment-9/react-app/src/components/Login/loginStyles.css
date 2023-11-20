@@ -1,0 +1,97 @@
+/* loginStyles.css */
+
+/* Background styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+ 
+    background-image: url('../../assets/images/desk-office.jpg');
+  }
+  
+  .h1{
+    text-align: center;
+    color: #0056b3;
+    font-size: larger;
+  }
+  /* Centered login container */
+  .login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px; /* Increased width of the container */
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Heading */
+  .login-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Form */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Input fields */
+  .login-form input {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Button */
+  .login-form button {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    /* background-color: #007bff; */
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+
+
+/* Active button */
+.active-button {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Default button color */
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .active-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  /* Inactive button */
+  .inactive-button {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ccc; /* Lighter shade for disabled */
+    color: #fff;
+    font-size: 16px;
+    cursor: not-allowed; /* Show disabled cursor */
+  }
+  
+  /* Error message */
+  .error-message {
+    color: red;
+    text-align: center;
+  }
+  
+  
