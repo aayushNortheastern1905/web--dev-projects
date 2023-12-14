@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.cart-title {
+    margin-bottom: 20px;
+}
+
+.address-title {
+    margin-top: 20px;
+}
+
+.total-price {
+    margin-top: 10px;
+}
+
+.cart-container {
+    width: 60%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border: 2px solid #ccc;
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+  
+  .cart-form-row {
+    margin-bottom: 15px;
+  }
+
+  .shop-now-button {
+    color: #ffffff;
+    background-color: #cf0a2c;
+    width: 20%;
+  }
+
+  .delete-button {
+    color: #ffffff;
+    background-color: #cf0a2c;
+    width: 20%;
+    margin: 5px;
+  }
+  
+  /* Add a media query for mobile devices */
+@media screen and (max-width: 767px) {
+  .cart-container {
+    width: 80%;
+  }
+
+  .shop-now-button,
+  .delete-button {
+      width: 50%;
+  }
+
+      /* Hide the image for mobile view */
+  .cart-container img {
+        display: none;
+  }
+}

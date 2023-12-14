@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.navbar-container {
+    margin-bottom: 30px;
+}
+
+.brand-font {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.search-shoes-input {
+    border-radius: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.navbar {
+    background-color: #050d14;
+  }
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-size: 18px;
+  }
+  
+
+  .navbar-nav .nav-link svg {
+    fill: white; 
+    font-size: 24px;
+  }
+
+  .logout-icon {
+    fill: white;
+    font-size: 24px;
+  }
+
+  
+
+.custom-menu {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 200px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(100%);
+  }
+  
+  .custom-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .custom-menu.open {
+    transform: translateX(0);
+  }
+  
+  @media screen and (min-width: 768px) {
+    .custom-menu {
+      display: none; 
+    }
+  }
+
+  .navbar-nav {
+    display: flex;
+  align-items: center;
+  }
+  

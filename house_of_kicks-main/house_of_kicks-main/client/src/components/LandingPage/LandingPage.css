@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+.carousel-slide {
+    overflow: hidden;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    transition: filter 0.5s ease; 
+    padding: 15px;
+  }
+  
+  .carousel-image.blur {
+    filter: blur(3px); 
+  }
+  
+
+.carousel-container {
+    position: relative;
+  }
+  
+.left-aligned-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 20px; 
+    margin-left: 20px; 
+  }
+  
+  .sneaker-article {
+    font-family: 'Playfair Display', serif;
+    width: 60%;
+    margin: auto;
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #efefef;
+  }
+
+  .shop-now-button {
+    color: #ccc;
+    background-color: #cf0a2c;
+    width: 20%;
+  }
+
+  /* .mobile {
+    height: 100px;
+    width: 100px;
+  }
+   */
+
+@media screen and (max-width: 768px) {
+  .carousel-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .carousel-slide {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .left-aligned-text {
+    text-align: center;
+  }
+
+  .sneaker-article {
+    flex-direction: column;
+  }
+
+  .sneaker-article img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .col-md-4,
+  .col-md-8 {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .res {
+    display: none;
+  }
+}

@@ -1,0 +1,85 @@
+.bgi {
+  /* background-image: url('https://sneakernews.com/wp-content/uploads/2011/12/2011-top-30-sneakers-summary.jpg'); */
+  background-image: url('https://drive.google.com/uc?id=1fgQ2ELuPjxbDuLqjt72vqd7GRlGnqyGT');
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 130vh; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+   .auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: none;
+
+  }
+  
+  .auth-card {
+    width: 70%; 
+    max-width: 400px;
+    background-color: #ffffff; 
+    margin-top: 1%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+ 
+  .auth-card form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+  }
+
+.tab-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.tab-buttons span {
+  cursor: pointer;
+}
+
+.active-tab {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.tab-toggles {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.tab-toggles span {
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.tab-toggles span:hover {
+  text-decoration: underline;
+}
+
+.active-tab {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.inactive-tab {
+  font-size: 20px;
+}
+
+.active-tab:hover {
+  text-decoration: none;
+}
+
+.hok-icon {
+
+  padding-left: 20px;
+  align-items: flex-start; /* Align content at the start */
+  margin-bottom: 20px; /* Add margin to separate from the tabs */
+}

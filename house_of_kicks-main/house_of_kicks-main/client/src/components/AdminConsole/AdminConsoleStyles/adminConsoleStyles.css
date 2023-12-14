@@ -1,0 +1,81 @@
+/* AdminPage.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+.admin-page {
+    margin: 20px;
+    padding: 20px;
+    /* Add other styles for the Admin page container */
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    /* Add styles for the Admin Console header */
+  }
+  
+  h4{
+    text-align: center;
+  }
+  .admin-cards-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    /* Add styles for the container of the cards */
+  }
+
+  .top-row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .dim {
+    height: 2.5rem;
+  }
+  
+  .admin-card {
+    width: 30%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  /* AdminPage.css */
+
+.users-table table {
+    width: 70%;
+    margin: 0 auto; /* Center the table horizontally */
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Add styles for the users' table */
+  }
+  
+  .users-table th,
+  .users-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+    /* Add styles for table headings and data cells */
+  }
+  
+  /* Alternating row colors */
+  .users-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light shade of color for even rows */
+  }
+  
+  .users-table th:last-child,
+  .users-table td:last-child {
+    text-align: center;
+    /* Add styles for the last column (Action) */
+  }
+  
+  .users-table button {
+    padding: 6px 12px;
+    background-color: #cf0a2c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    /* Add styles for the button in the table */
+  }
+  
