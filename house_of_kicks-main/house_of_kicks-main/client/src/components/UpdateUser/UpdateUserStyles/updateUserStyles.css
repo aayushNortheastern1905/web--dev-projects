@@ -1,0 +1,95 @@
+.btn-background-color {
+  background-color: black;
+  float: right;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+
+.btn-background-color:hover {
+  background-color: darkgray
+}
+
+button[disabled] {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.profile-title {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  margin-top: 10px;
+}
+
+.container-update {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-card-update {
+  width: 80%;
+  max-width: 900px;
+  margin-top: 0px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #F4F5FB;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 4px;
+}
+
+
+
+.far {
+  margin-left: -30px;
+  cursor: pointer;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.password-row {
+  display: flex;
+  flex-direction: row;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .container-update {
+    margin-top: 100px;
+  }
+
+
+}
+
+@media screen and (max-width: 576px) {
+
+  .container-update {
+    margin-top: 50px;
+  }
+
+  .profile-card-update {
+    width: 95%;
+    margin-top: 50px;
+  }
+
+  .error-message {
+    font-size: 0.7rem;
+    margin-top: 2px;
+  }
+
+  .far {
+    margin-left: -15px;
+    padding-top: 5px;
+    margin-top: 5px;
+  }
+}

@@ -1,0 +1,36 @@
+  .signup-container {
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    /* height: 100vh; */
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+    
+  }
+  
+  .form-control {
+    width: calc(100% - 25px); 
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  button {
+    background-color: black;
+  }
+  
+  /* .required {
+    color: red;
+    margin-left: 1px;
+  } */
+  
+  button[disabled] {
+    opacity: 0.3;;
+    cursor: not-allowed;
+    /* Additional styling as per your design */
+  }
